@@ -10,26 +10,26 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "help":
         await query.message.edit_text(
-            text = f"<b>Bot Cammands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : Create Group Message\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast Message\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/Its_Oreki_Hotarou>Hōᴛᴀʀō Oʀᴇᴋɪ</a></b>",
+            text = f"<b>Bot Commands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : Create Group Message\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast Message\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/supernovanetwork>Supernova™</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💥​ᴄʟᴏꜱᴇ​💥", callback_data="close"),
-                        InlineKeyboardButton("⚡ᴀʙᴏᴜᴛ⚡", callback_data="about")
+                        InlineKeyboardButton("🗿 Close the page", callback_data="close"),
+                        InlineKeyboardButton("🤔 About", callback_data="about")
                     ]
                 ]
             )
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>Hi there this is a file store bot which is convert any file to link...\nthen you can access this file through a specific link...!\n\nCreator - @Its_Oreki_Hotarou\nMy Channel - @Anime_X_Hunters\nDicsussion Group - @Hunters_Discussion</a>\n\n👨‍💻 Developed by @Its_Oreki_Hotarou</b>",
+            text = f"<b>\n⋉ Creator : <a href='tg://user?id={760067286}'>𝙓𝙚𝙣𝙤𝙫</a>\n❐ Owner : <a href='tg://user?id={OWNER_ID}'>This User\n❐ Support Group: <a href=https://t.me/sn_botsupport>Bots Support™</a>\n❐ Powered by: <a href=https://t.me/supernovanetwork>Supernova™</a>\n━━━━━━━━━━━━━━━━━━━━━━━━━━━/n➮ Want your own Bot?: <a href=https://t.me/not_xenov>Contact here</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("💥​ᴄʟᴏꜱᴇ​💥", callback_data="close"),
-                        InlineKeyboardButton("🚀ʜᴇʟᴘ🚀", callback_data="help")
+                        InlineKeyboardButton("🗿 Close the page", callback_data="close"),
+                        InlineKeyboardButton("🤔 About", callback_data="help")
                     ]
                 ]
             )
