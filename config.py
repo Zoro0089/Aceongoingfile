@@ -40,7 +40,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 #start message
 START_MSG = os.environ.get("START_MESSAGE", "<b>Hey there, {mention}! How you doin'</b>\n\n<i>Anyways, I can provide you with files via certain links posted at channels.</i>\n\n<a href='https://telegra.ph/file/9eb3ec1e091e2ea875dde.jpg'>○</a> Proudly affiliated with<a href='https://t.me/supernovanetwork'>Supernova™</a></b>")
 try:
-    ADMINS=[6376328008]
+    ADMINS=[760067286]
     for x in (os.environ.get("ADMINS", "760067286").split()):
         ADMINS.append(int(x))
 except ValueError:
@@ -62,7 +62,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "​🚫 I can't do nothing but provide you with files, if there is any issue report it at @Anime_Ryuzen_Chat"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(5090651635)
+ADMINS.append(760067286)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
