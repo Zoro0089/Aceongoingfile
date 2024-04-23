@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "help":
         await query.message.edit_text(
-            text = f"<b>Bot Commands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : Create Group Message\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast Message\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/supernovanetwork>Supernova™</a></b>",
+            text = f"<b>Bot Commands\n❏ Commands For BOT Admins\n├/start : start the bot or get posts\n├/batch : Create Group Message\n├/genlink : create link for one post\n├/users : view bot statistics\n├/broadcast : broadcast Message\n└/stats : checking your bot uptime\n\n👨‍💻 Developed by <a href=https://t.me/ACE_emperor>Ace emperor</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "about":
         await query.message.edit_text(
-            text = f"<b>\n⋉ Creator : <a href='tg://user?id={760067286}'>𝙓𝙚𝙣𝙤𝙫</a>\n❐ Owner : <a href='tg://user?id={OWNER_ID}'>This User\n❐ Support Group: <a href=https://t.me/sn_botsupport>Bots Support™</a>\n❐ Powered by: <a href=https://t.me/supernovanetwork>Supernova™</a>\n━━━━━━━━━━━━━━━━━━━━━━━━━━━/n➮ Want your own Bot?: <a href=https://t.me/not_xenov>Contact here</a></b>",
+            text = f"<b>\n⋉ Creator : <a href='tg://user?id={760067286}'>𝙓𝙚𝙣𝙤𝙫</a>\n❐ Owner : <a href='tg://user?id={OWNER_ID}'>This User\n❐ Support Group: <a href=https://t.me/ace_emperor_bot_support>Bots Support™</a>\n❐ Powered by: <a href=https://t.me/ACE_emperor™</a>\n━━━━━━━━━━━━━━━━━━━━━━━━━━━/n➮ Want your own Bot?: <a href=https://t.me/Zoro_0089>Contact here</a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
